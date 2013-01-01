@@ -131,8 +131,9 @@
 		F508B8E41692B7B100DF49C2 /* vec4.c in Sources */ = {isa = PBXBuildFile; fileRef = F508B8E31692B7B100DF49C2 /* vec4.c */; };
 		F508B8E91692B7B100DF49C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F508B8E81692B7B100DF49C2 /* main.m */; };
 		F508B8EC1692B7B100DF49C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F508B8EB1692B7B100DF49C2 /* AppDelegate.m */; };
-		F508B8EF1692B7B100DF49C2 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F508B8EE1692B7B100DF49C2 /* HelloWorldLayer.m */; };
+		F508B8EF1692B7B100DF49C2 /* GameLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F508B8EE1692B7B100DF49C2 /* GameLayer.m */; };
 		F508B8F21692B7B100DF49C2 /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F508B8F11692B7B100DF49C2 /* IntroLayer.m */; };
+		F508B8FA1692BB6B00DF49C2 /* GuiLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F508B8F91692BB6B00DF49C2 /* GuiLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -394,10 +395,12 @@
 		F508B8E81692B7B100DF49C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F508B8EA1692B7B100DF49C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F508B8EB1692B7B100DF49C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F508B8ED1692B7B100DF49C2 /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
-		F508B8EE1692B7B100DF49C2 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
+		F508B8ED1692B7B100DF49C2 /* GameLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameLayer.h; sourceTree = "<group>"; };
+		F508B8EE1692B7B100DF49C2 /* GameLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameLayer.m; sourceTree = "<group>"; };
 		F508B8F01692B7B100DF49C2 /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		F508B8F11692B7B100DF49C2 /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		F508B8F81692BB6B00DF49C2 /* GuiLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuiLayer.h; sourceTree = "<group>"; };
+		F508B8F91692BB6B00DF49C2 /* GuiLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuiLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -458,8 +461,10 @@
 			children = (
 				F508B8EA1692B7B100DF49C2 /* AppDelegate.h */,
 				F508B8EB1692B7B100DF49C2 /* AppDelegate.m */,
-				F508B8ED1692B7B100DF49C2 /* HelloWorldLayer.h */,
-				F508B8EE1692B7B100DF49C2 /* HelloWorldLayer.m */,
+				F508B8ED1692B7B100DF49C2 /* GameLayer.h */,
+				F508B8EE1692B7B100DF49C2 /* GameLayer.m */,
+				F508B8F81692BB6B00DF49C2 /* GuiLayer.h */,
+				F508B8F91692BB6B00DF49C2 /* GuiLayer.m */,
 				F508B8F01692B7B100DF49C2 /* IntroLayer.h */,
 				F508B8F11692B7B100DF49C2 /* IntroLayer.m */,
 				F508B7731692B7AE00DF49C2 /* Resources */,
@@ -1007,8 +1012,9 @@
 				F508B8E41692B7B100DF49C2 /* vec4.c in Sources */,
 				F508B8E91692B7B100DF49C2 /* main.m in Sources */,
 				F508B8EC1692B7B100DF49C2 /* AppDelegate.m in Sources */,
-				F508B8EF1692B7B100DF49C2 /* HelloWorldLayer.m in Sources */,
+				F508B8EF1692B7B100DF49C2 /* GameLayer.m in Sources */,
 				F508B8F21692B7B100DF49C2 /* IntroLayer.m in Sources */,
+				F508B8FA1692BB6B00DF49C2 /* GuiLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
